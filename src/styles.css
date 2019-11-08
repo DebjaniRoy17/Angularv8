@@ -73,7 +73,7 @@ body a:hover {
     background: rgba(0,0,0,0.4);
   }
    
-  .serviceImage{
+  /* .serviceImage{
     
   background-image: url("./assets/images/images.jpeg") !important;
   background-position: center;
@@ -91,7 +91,7 @@ body a:hover {
     left: 0;
     bottom: 0;
     background: #8dcdff85; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; 
-  }  
+  }   */
 
 
 .bgimg {

@@ -9,7 +9,7 @@
 </div> 
   <div style="padding-top: 20px;"></div>
   <div style="background-color:#a2afbf75;">
-  <p-carousel [value]="cars" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="10000" [responsiveOptions]="responsiveOptions">
+  <p-carousel [value]="cars" styleClass="custom-carousel" [numVisible]="4" [numScroll]="1" [circular]="true" [autoplayInterval]="10000" [responsiveOptions]="responsiveOptions">
       <p-header>
           <h3 class="styleH3" style="margin-left: 40px;font-size: 19px;">We provide </h3>
       </p-header>
@@ -17,7 +17,7 @@
           <div class="car-details">
               <div class="p-grid p-nogutter">
                   <div class="p-col-12">
-                      <img src="./assets/images/{{car.image}}.jpg" style="height: 200px;width:250px;"/>
+                      <img src="./assets/images/{{car.image}}" style="height: 200px;width:250px;"/>
                   </div>
                   <div class="p-col-12 car-data">
                       <div class="car-title"><h3>{{car.brand}}</h3></div>
