@@ -4,7 +4,7 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Open Sans, Helvetica Neue, sans-serif; }
 
 .text {
-  color: white;
+  color: #c9d2dd;
   position: relative;
   font-family: Open Sans, Helvetica Neue, sans-serif;
 }
