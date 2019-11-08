@@ -1,0 +1,183 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import '@angular/material/prebuilt-themes/pink-bluegrey.css';*/
+html, body { height: 100%; }
+body { margin: 0; font-family: Open Sans, Helvetica Neue, sans-serif; }
+
+.text {
+  color: white;
+  position: relative;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
+}
+.textOther{
+  color: rgb(77, 81, 97);;
+  position: relative;
+  font-family: Open Sans, Helvetica Neue, sans-serif;;
+}
+/* a:hover {
+  color: #ffffff;
+  text-decoration: none;
+} */
+
+
+body a:hover {
+  color: #8dcdff;
+}
+
+.fill-space{
+    padding:20%;
+}
+ 
+.styleH3{
+  font-weight: 500;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
+}
+.styleH3 em{
+  color: cornflowerblue;
+}
+.logostyle{
+  font-size: 35px;
+    color: #b1b7be ;/*  #a2afbf75; */
+    font-family: Open Sans, Helvetica Neue, sans-serif;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.pi-map-marker:hover {
+  color: #8dcdff;
+}
+.otherbgimg{
+  /* The image used */
+  background-image: url("./assets/images/bg_2.jpg");
+
+
+  /* Full height */
+ 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
+  
+  .otherbgimg:before{
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+  }
+   
+  .serviceImage{
+    
+  background-image: url("./assets/images/images.jpeg") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(40%) contrast(100%) brightness(95%);
+  
+  }
+  
+  .serviceImage:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #8dcdff85; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; 
+  }  
+
+
+.bgimg {
+  /*background-image: linear-gradient(to left, rgba(255,0,0,0),rgb(58, 54, 54)),url("./assets/images/homeBG.jpg") !important;*/
+  background-image: url("./assets/images/homeBG.jpg") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  filter: grayscale(60%) contrast(170%) brightness(95%);
+  
+}
+.bgimg:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(48, 95, 154, 0.56); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; 
+} 
+body .ui-toolbar{
+ background-color:rgb(77, 81, 97); 
+ border: 0px;
+}
+.ui-card{
+  height:300px;
+  width: 250px;
+}
+.ui-tabview-panels{
+  height: 450px;
+  width:1400px;
+  
+  filter: alpha(opacity=50); 
+}
+body .ui-tabview .ui-tabview-panels{
+  background-color: #a2afbf75;
+}
+.ui-tabview.ui-tabview-top .ui-tabview-nav li{
+  width:20%;
+}
+.addr{
+  padding-left: 40px;
+}
+body .ui-button.ui-state-default.ui-button-secondary, body .ui-buttonset.ui-button-secondary > .ui-button.ui-state-default{
+  border:0px;
+  background-color:transparent;
+  color:  #b1b7be;
+}
+.ui-button.ui-state-default.ui-button-secondary, body .ui-buttonset.ui-button-secondary > .ui-button.ui-state-default{
+  padding: 0.8em 1em;
+}
+body .ui-button.ui-state-default.ui-button-secondary:enabled:hover, body .ui-buttonset.ui-button-secondary > .ui-button.ui-state-default:enabled:hover {
+  background-color: #a2afbf75; /*rgba(69, 82, 118, 0.51);*/
+  color: white;
+}
+.subheader{
+  background-color: #a2afbf75;
+  padding: 5px 0px;
+  top: 70px;
+  position: relative;
+  color: rgb(77, 81, 97);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+.serviceBg{
+  background-color: #a2afbf75;
+    height: 550px;
+    padding: 50px;
+}
+
+body .ui-listbox .ui-listbox-list .ui-listbox-item {
+  margin: 0;
+  padding: 0.429em 0.857em;
+  border: 0px none;
+  color: rgb(77, 81, 97);
+  background-color: #a2afbf75;
+  border-radius: 0;
+  /* font-weight: 600; */
+  font-size: 16px;
+}
+body .ui-listbox {
+  border: 0px ;
+  min-width: 14em;
+}
+body .ui-listbox .ui-listbox-list .ui-listbox-item.ui-state-highlight {
+  color: white;
+  background-color: #8dcdff;
+}
+body .ui-listbox:not(.ui-state-disabled) .ui-listbox-item:not(.ui-state-highlight):not(.ui-state-disabled):hover {
+  color: white;
+  background-color: #8dcdff;
+}

@@ -1,0 +1,40 @@
+<div class="subheader">
+  <p style="font-size: 18px;">To cater your services, we have offices in</p>
+  <i class="pi pi-map-marker" style="font-size: 60px;"></i>Kolkata &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <i class="pi pi-map-marker" style="font-size: 60px;"></i>Mumbai
+</div>
+  <div #link_company>
+    <app-company></app-company>
+  </div>
+  <div #link_aboutUs>
+    <app-about-us></app-about-us>
+  </div>
+  <div #link_services>
+    <app-services></app-services>
+  </div>
+  <div #link_contactUs> 
+    <app-contact-us></app-contact-us>
+  </div>
+  
+  
+  <p-toolbar [style]="{height: '70px',position:'fixed',width:'100%',top:'0'}">
+  <div class="ui-toolbar-group-left">
+    <img src="./assets/images/logo.png" style="width: 75px;
+    height: 65px;">
+    <a class="logostyle" #logoClick>MechSol Consultants
+      
+      
+    </a>
+  </div>
+  
+  
+  <div class="ui-toolbar-group-right">
+      <button pButton type="button" class="ui-button-secondary" label="HOME" (click)=onHome($event)></button>&nbsp;
+      <button pButton type="button" class="ui-button-secondary" label="ABOUT US" (click)=onAboutUs($event)></button>&nbsp;
+      <button pButton type="button" class="ui-button-secondary" label="SERVICES" (click)=onServices($event)></button>&nbsp;
+      <button pButton type="button" class="ui-button-secondary" label="CONTACT US" (click)=onContactUs($event)></button>&nbsp;
+  </div>
+</p-toolbar>
+
+<!-- <router-outlet></router-outlet> -->

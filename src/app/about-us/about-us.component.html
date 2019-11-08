@@ -1,0 +1,46 @@
+
+<div class="textOther" style="height:600px;">
+
+
+<div style="margin-left: 40px;">
+<h3 class="styleH3">We are a team with vast technical background and having wide experience in nuclear field, 
+    experience in  design of custom made equipment, solid modelling and finite element method analysis.
+</h3>
+</div> 
+  <div style="padding-top: 20px;"></div>
+  <div style="background-color:#a2afbf75;">
+  <p-carousel [value]="cars" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="10000" [responsiveOptions]="responsiveOptions">
+      <p-header>
+          <h3 class="styleH3" style="margin-left: 40px;font-size: 19px;">We provide </h3>
+      </p-header>
+      <ng-template let-car pTemplate="item">
+          <div class="car-details">
+              <div class="p-grid p-nogutter">
+                  <div class="p-col-12">
+                      <img src="./assets/images/{{car.image}}.jpg" style="height: 200px;width:250px;"/>
+                  </div>
+                  <div class="p-col-12 car-data">
+                      <div class="car-title"><h3>{{car.brand}}</h3></div>
+                      
+  
+                      
+                  </div>
+              </div>
+          </div>
+      </ng-template>
+  </p-carousel>
+</div>
+  
+
+
+
+<div class="text" style="height:max-content;background-color: rgb(77, 81, 97);padding: 10px 0px;">
+  <h3 class="styleH3" style="margin-left: 40px;">
+      The services are not limited to a specific area. For any engineering problem, MechSol Consultants is available to offer
+          you a peaceful night. 
+      
+  </h3>
+  <h3 class="styleH3" style="margin-left: 40px;">For any type of mechanical solution you can rely on MechSol Consultants. </h3>
+</div>
+</div>
+
