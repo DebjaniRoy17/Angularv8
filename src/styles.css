@@ -8,6 +8,11 @@ body { margin: 0; font-family: Open Sans, Helvetica Neue, sans-serif; }
   position: relative;
   font-family: Open Sans, Helvetica Neue, sans-serif;
 }
+.homeText{
+  color: white;
+  position: relative;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
+}
 .textOther{
   color: rgb(77, 81, 97);;
   position: relative;
