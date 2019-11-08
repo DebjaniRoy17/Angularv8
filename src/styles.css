@@ -36,7 +36,7 @@ body a:hover {
 }
 .logostyle{
   font-size: 35px;
-    color: #b1b7be ;/*  #a2afbf75; */
+    color: #c9d2dd ;/*  #a2afbf75; */
     font-family: Open Sans, Helvetica Neue, sans-serif;
     font-weight: 600;
     vertical-align: top;
@@ -134,7 +134,7 @@ body .ui-tabview .ui-tabview-panels{
 body .ui-button.ui-state-default.ui-button-secondary, body .ui-buttonset.ui-button-secondary > .ui-button.ui-state-default{
   border:0px;
   background-color:transparent;
-  color:  #b1b7be;
+  color:  #c9d2dd;
 }
 .ui-button.ui-state-default.ui-button-secondary, body .ui-buttonset.ui-button-secondary > .ui-button.ui-state-default{
   padding: 0.8em 1em;
